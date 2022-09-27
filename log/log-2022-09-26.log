@@ -9,3 +9,27 @@
 [http-nio-5555-exec-4] INFO  c.b.s.aop.LoggingAspect - Exited getAllBooks of BookController
 [restartedMain] INFO  c.b.s.SpringBootRestDataBmsMavenApplication - Starting SpringBootRestDataBmsMavenApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 11536 (D:\Poongs\eclipse-workspace\1stAug-workspace\spring-boot-rest-data-bms-maven.zip_expanded\spring-boot-rest-data-bms-maven\target\classes started by Poongs in D:\Poongs\eclipse-workspace\1stAug-workspace\spring-boot-rest-data-bms-maven.zip_expanded\spring-boot-rest-data-bms-maven)
 [restartedMain] INFO  c.b.s.SpringBootRestDataBmsMavenApplication - No active profile set, falling back to 1 default profile: "default"
+[restartedMain] INFO  c.b.s.SpringBootRestDataBmsMavenApplication - Starting SpringBootRestDataBmsMavenApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 15012 (D:\Poongs\eclipse-workspace\1stAug-workspace\spring-boot-rest-data-bms-maven.zip_expanded\spring-boot-rest-data-bms-maven\target\classes started by Poongs in D:\Poongs\eclipse-workspace\1stAug-workspace\spring-boot-rest-data-bms-maven.zip_expanded\spring-boot-rest-data-bms-maven)
+[restartedMain] INFO  c.b.s.SpringBootRestDataBmsMavenApplication - No active profile set, falling back to 1 default profile: "default"
+[restartedMain] INFO  c.b.s.SpringBootRestDataBmsMavenApplication - Started SpringBootRestDataBmsMavenApplication in 33.906 seconds (JVM running for 37.14)
+[http-nio-5555-exec-4] INFO  c.b.s.aop.LoggingAspect - Entered getAllBooks of BookController
+[http-nio-5555-exec-4] INFO  c.b.s.aop.LoggingAspect - Entered getAllBooks of BookServiceImpl
+[http-nio-5555-exec-4] INFO  c.b.s.aop.LoggingAspect - Execution time of BookServiceImpl.getAllBooks :: 459 ms
+[http-nio-5555-exec-4] INFO  c.b.s.aop.LoggingAspect - Exited getAllBooks of BookServiceImpl
+[http-nio-5555-exec-4] INFO  c.b.s.aop.LoggingAspect - Execution time of BookController.getAllBooks :: 488 ms
+[http-nio-5555-exec-4] INFO  c.b.s.aop.LoggingAspect - Exited getAllBooks of BookController
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Entered addBook of BookController
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Entered addBook of BookServiceImpl
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Entered saveAndFlush of JpaRepository
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Execution time of JpaRepository.saveAndFlush :: 170 ms
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Exited saveAndFlush of JpaRepository
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Execution time of BookServiceImpl.addBook :: 192 ms
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Exited addBook of BookServiceImpl
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Execution time of BookController.addBook :: 193 ms
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Exited addBook of BookController
+[http-nio-5555-exec-2] INFO  c.b.s.aop.LoggingAspect - Entered getAllBooks of BookController
+[http-nio-5555-exec-2] INFO  c.b.s.aop.LoggingAspect - Entered getAllBooks of BookServiceImpl
+[http-nio-5555-exec-2] INFO  c.b.s.aop.LoggingAspect - Execution time of BookServiceImpl.getAllBooks :: 80 ms
+[http-nio-5555-exec-2] INFO  c.b.s.aop.LoggingAspect - Exited getAllBooks of BookServiceImpl
+[http-nio-5555-exec-2] INFO  c.b.s.aop.LoggingAspect - Execution time of BookController.getAllBooks :: 80 ms
+[http-nio-5555-exec-2] INFO  c.b.s.aop.LoggingAspect - Exited getAllBooks of BookController
