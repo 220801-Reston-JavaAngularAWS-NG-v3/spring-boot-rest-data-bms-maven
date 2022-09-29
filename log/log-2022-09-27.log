@@ -4,3 +4,117 @@
 [restartedMain] INFO  c.b.s.SpringBootRestDataBmsMavenApplication - Starting SpringBootRestDataBmsMavenApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 15012 (D:\Poongs\eclipse-workspace\1stAug-workspace\spring-boot-rest-data-bms-maven.zip_expanded\spring-boot-rest-data-bms-maven\target\classes started by Poongs in D:\Poongs\eclipse-workspace\1stAug-workspace\spring-boot-rest-data-bms-maven.zip_expanded\spring-boot-rest-data-bms-maven)
 [restartedMain] INFO  c.b.s.SpringBootRestDataBmsMavenApplication - No active profile set, falling back to 1 default profile: "default"
 [restartedMain] INFO  c.b.s.SpringBootRestDataBmsMavenApplication - Started SpringBootRestDataBmsMavenApplication in 5.716 seconds (JVM running for 86914.224)
+[restartedMain] INFO  c.b.s.SpringBootRestDataBmsMavenApplication - Starting SpringBootRestDataBmsMavenApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 15012 (D:\Poongs\eclipse-workspace\1stAug-workspace\spring-boot-rest-data-bms-maven.zip_expanded\spring-boot-rest-data-bms-maven\target\classes started by Poongs in D:\Poongs\eclipse-workspace\1stAug-workspace\spring-boot-rest-data-bms-maven.zip_expanded\spring-boot-rest-data-bms-maven)
+[restartedMain] INFO  c.b.s.SpringBootRestDataBmsMavenApplication - No active profile set, falling back to 1 default profile: "default"
+[restartedMain] INFO  c.b.s.SpringBootRestDataBmsMavenApplication - Started SpringBootRestDataBmsMavenApplication in 4.959 seconds (JVM running for 89443.574)
+[restartedMain] INFO  c.b.s.SpringBootRestDataBmsMavenApplication - Starting SpringBootRestDataBmsMavenApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 27044 (D:\Poongs\eclipse-workspace\1stAug-workspace\spring-boot-rest-data-bms-maven.zip_expanded\spring-boot-rest-data-bms-maven\target\classes started by Poongs in D:\Poongs\eclipse-workspace\1stAug-workspace\spring-boot-rest-data-bms-maven.zip_expanded\spring-boot-rest-data-bms-maven)
+[restartedMain] INFO  c.b.s.SpringBootRestDataBmsMavenApplication - No active profile set, falling back to 1 default profile: "default"
+[restartedMain] INFO  c.b.s.SpringBootRestDataBmsMavenApplication - Started SpringBootRestDataBmsMavenApplication in 21.037 seconds (JVM running for 24.059)
+[http-nio-5555-exec-2] INFO  c.b.s.aop.LoggingAspect - Entered addBook of BookController
+[http-nio-5555-exec-2] INFO  c.b.s.aop.LoggingAspect - Entered addBook of BookServiceImpl
+[http-nio-5555-exec-2] INFO  c.b.s.aop.LoggingAspect - Entered saveAndFlush of JpaRepository
+[http-nio-5555-exec-2] INFO  c.b.s.aop.LoggingAspect - Execution time of JpaRepository.saveAndFlush :: 227 ms
+[http-nio-5555-exec-2] INFO  c.b.s.aop.LoggingAspect - Exited saveAndFlush of JpaRepository
+[http-nio-5555-exec-2] INFO  c.b.s.aop.LoggingAspect - Execution time of BookServiceImpl.addBook :: 268 ms
+[http-nio-5555-exec-2] INFO  c.b.s.aop.LoggingAspect - Exited addBook of BookServiceImpl
+[http-nio-5555-exec-2] INFO  c.b.s.aop.LoggingAspect - Execution time of BookController.addBook :: 290 ms
+[http-nio-5555-exec-2] INFO  c.b.s.aop.LoggingAspect - Exited addBook of BookController
+[http-nio-5555-exec-3] INFO  c.b.s.aop.LoggingAspect - Entered getAllBooks of BookController
+[http-nio-5555-exec-3] INFO  c.b.s.aop.LoggingAspect - Entered getAllBooks of BookServiceImpl
+[http-nio-5555-exec-3] INFO  c.b.s.aop.LoggingAspect - Execution time of BookServiceImpl.getAllBooks :: 363 ms
+[http-nio-5555-exec-3] INFO  c.b.s.aop.LoggingAspect - Exited getAllBooks of BookServiceImpl
+[http-nio-5555-exec-3] INFO  c.b.s.aop.LoggingAspect - Execution time of BookController.getAllBooks :: 365 ms
+[http-nio-5555-exec-3] INFO  c.b.s.aop.LoggingAspect - Exited getAllBooks of BookController
+[http-nio-5555-exec-4] INFO  c.b.s.aop.LoggingAspect - Entered deleteBook of BookController
+[http-nio-5555-exec-4] INFO  c.b.s.aop.LoggingAspect - Entered deleteBook of BookServiceImpl
+[http-nio-5555-exec-4] INFO  c.b.s.aop.LoggingAspect - Entered deleteById of CrudRepository
+[http-nio-5555-exec-4] INFO  c.b.s.aop.LoggingAspect - Execution time of CrudRepository.deleteById :: 264 ms
+[http-nio-5555-exec-4] INFO  c.b.s.aop.LoggingAspect - Exited deleteById of CrudRepository
+[http-nio-5555-exec-4] INFO  c.b.s.aop.LoggingAspect - Execution time of BookServiceImpl.deleteBook :: 266 ms
+[http-nio-5555-exec-4] INFO  c.b.s.aop.LoggingAspect - Exited deleteBook of BookServiceImpl
+[http-nio-5555-exec-4] INFO  c.b.s.aop.LoggingAspect - Execution time of BookController.deleteBook :: 268 ms
+[http-nio-5555-exec-4] INFO  c.b.s.aop.LoggingAspect - Exited deleteBook of BookController
+[http-nio-5555-exec-10] INFO  c.b.s.aop.LoggingAspect - Entered getAllBooks of BookController
+[http-nio-5555-exec-10] INFO  c.b.s.aop.LoggingAspect - Entered getAllBooks of BookServiceImpl
+[http-nio-5555-exec-10] INFO  c.b.s.aop.LoggingAspect - Execution time of BookServiceImpl.getAllBooks :: 65 ms
+[http-nio-5555-exec-10] INFO  c.b.s.aop.LoggingAspect - Exited getAllBooks of BookServiceImpl
+[http-nio-5555-exec-10] INFO  c.b.s.aop.LoggingAspect - Execution time of BookController.getAllBooks :: 66 ms
+[http-nio-5555-exec-10] INFO  c.b.s.aop.LoggingAspect - Exited getAllBooks of BookController
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Entered getABook of BookController
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Entered getABook of BookServiceImpl
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Entered findById of CrudRepository
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Execution time of CrudRepository.findById :: 98 ms
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Exited findById of CrudRepository
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Execution time of BookServiceImpl.getABook :: 113 ms
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Exited getABook of BookServiceImpl
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Execution time of BookController.getABook :: 114 ms
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Exited getABook of BookController
+[http-nio-5555-exec-1] INFO  c.b.s.aop.LoggingAspect - Entered getAllBooks of BookController
+[http-nio-5555-exec-1] INFO  c.b.s.aop.LoggingAspect - Entered getAllBooks of BookServiceImpl
+[http-nio-5555-exec-1] INFO  c.b.s.aop.LoggingAspect - Execution time of BookServiceImpl.getAllBooks :: 102 ms
+[http-nio-5555-exec-1] INFO  c.b.s.aop.LoggingAspect - Exited getAllBooks of BookServiceImpl
+[http-nio-5555-exec-1] INFO  c.b.s.aop.LoggingAspect - Execution time of BookController.getAllBooks :: 103 ms
+[http-nio-5555-exec-1] INFO  c.b.s.aop.LoggingAspect - Exited getAllBooks of BookController
+[http-nio-5555-exec-7] INFO  c.b.s.aop.LoggingAspect - Entered getABook of BookController
+[http-nio-5555-exec-7] INFO  c.b.s.aop.LoggingAspect - Entered getABook of BookServiceImpl
+[http-nio-5555-exec-7] INFO  c.b.s.aop.LoggingAspect - Entered findById of CrudRepository
+[http-nio-5555-exec-7] INFO  c.b.s.aop.LoggingAspect - Execution time of CrudRepository.findById :: 122 ms
+[http-nio-5555-exec-7] INFO  c.b.s.aop.LoggingAspect - Exited findById of CrudRepository
+[http-nio-5555-exec-7] INFO  c.b.s.aop.LoggingAspect - Execution time of BookServiceImpl.getABook :: 126 ms
+[http-nio-5555-exec-7] INFO  c.b.s.aop.LoggingAspect - Exited getABook of BookServiceImpl
+[http-nio-5555-exec-7] INFO  c.b.s.aop.LoggingAspect - Execution time of BookController.getABook :: 127 ms
+[http-nio-5555-exec-7] INFO  c.b.s.aop.LoggingAspect - Exited getABook of BookController
+[http-nio-5555-exec-10] INFO  c.b.s.aop.LoggingAspect - Entered updateBook of BookController
+[http-nio-5555-exec-10] INFO  c.b.s.aop.LoggingAspect - Entered updateBook of BookServiceImpl
+[http-nio-5555-exec-10] INFO  c.b.s.aop.LoggingAspect - Entered save of CrudRepository
+[http-nio-5555-exec-10] INFO  c.b.s.aop.LoggingAspect - Execution time of CrudRepository.save :: 190 ms
+[http-nio-5555-exec-10] INFO  c.b.s.aop.LoggingAspect - Exited save of CrudRepository
+[http-nio-5555-exec-10] INFO  c.b.s.aop.LoggingAspect - Execution time of BookServiceImpl.updateBook :: 197 ms
+[http-nio-5555-exec-10] INFO  c.b.s.aop.LoggingAspect - Exited updateBook of BookServiceImpl
+[http-nio-5555-exec-10] INFO  c.b.s.aop.LoggingAspect - Execution time of BookController.updateBook :: 198 ms
+[http-nio-5555-exec-10] INFO  c.b.s.aop.LoggingAspect - Exited updateBook of BookController
+[http-nio-5555-exec-5] INFO  c.b.s.aop.LoggingAspect - Entered getAllBooks of BookController
+[http-nio-5555-exec-5] INFO  c.b.s.aop.LoggingAspect - Entered getAllBooks of BookServiceImpl
+[http-nio-5555-exec-5] INFO  c.b.s.aop.LoggingAspect - Execution time of BookServiceImpl.getAllBooks :: 70 ms
+[http-nio-5555-exec-5] INFO  c.b.s.aop.LoggingAspect - Exited getAllBooks of BookServiceImpl
+[http-nio-5555-exec-5] INFO  c.b.s.aop.LoggingAspect - Execution time of BookController.getAllBooks :: 71 ms
+[http-nio-5555-exec-5] INFO  c.b.s.aop.LoggingAspect - Exited getAllBooks of BookController
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Entered addBook of BookController
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Entered addBook of BookServiceImpl
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Entered saveAndFlush of JpaRepository
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Execution time of JpaRepository.saveAndFlush :: 104 ms
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Exited saveAndFlush of JpaRepository
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Execution time of BookServiceImpl.addBook :: 106 ms
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Exited addBook of BookServiceImpl
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Execution time of BookController.addBook :: 106 ms
+[http-nio-5555-exec-9] INFO  c.b.s.aop.LoggingAspect - Exited addBook of BookController
+[http-nio-5555-exec-1] INFO  c.b.s.aop.LoggingAspect - Entered getAllBooks of BookController
+[http-nio-5555-exec-1] INFO  c.b.s.aop.LoggingAspect - Entered getAllBooks of BookServiceImpl
+[http-nio-5555-exec-1] INFO  c.b.s.aop.LoggingAspect - Execution time of BookServiceImpl.getAllBooks :: 72 ms
+[http-nio-5555-exec-1] INFO  c.b.s.aop.LoggingAspect - Exited getAllBooks of BookServiceImpl
+[http-nio-5555-exec-1] INFO  c.b.s.aop.LoggingAspect - Execution time of BookController.getAllBooks :: 72 ms
+[http-nio-5555-exec-1] INFO  c.b.s.aop.LoggingAspect - Exited getAllBooks of BookController
+[http-nio-5555-exec-3] INFO  c.b.s.aop.LoggingAspect - Entered getABook of BookController
+[http-nio-5555-exec-3] INFO  c.b.s.aop.LoggingAspect - Entered getABook of BookServiceImpl
+[http-nio-5555-exec-3] INFO  c.b.s.aop.LoggingAspect - Entered findById of CrudRepository
+[http-nio-5555-exec-3] INFO  c.b.s.aop.LoggingAspect - Execution time of CrudRepository.findById :: 169 ms
+[http-nio-5555-exec-3] INFO  c.b.s.aop.LoggingAspect - Exited findById of CrudRepository
+[http-nio-5555-exec-3] INFO  c.b.s.aop.LoggingAspect - Execution time of BookServiceImpl.getABook :: 169 ms
+[http-nio-5555-exec-3] INFO  c.b.s.aop.LoggingAspect - Exited getABook of BookServiceImpl
+[http-nio-5555-exec-3] INFO  c.b.s.aop.LoggingAspect - Execution time of BookController.getABook :: 170 ms
+[http-nio-5555-exec-3] INFO  c.b.s.aop.LoggingAspect - Exited getABook of BookController
+[http-nio-5555-exec-7] INFO  c.b.s.aop.LoggingAspect - Entered updateBook of BookController
+[http-nio-5555-exec-7] INFO  c.b.s.aop.LoggingAspect - Entered updateBook of BookServiceImpl
+[http-nio-5555-exec-7] INFO  c.b.s.aop.LoggingAspect - Entered save of CrudRepository
+[http-nio-5555-exec-7] INFO  c.b.s.aop.LoggingAspect - Execution time of CrudRepository.save :: 168 ms
+[http-nio-5555-exec-7] INFO  c.b.s.aop.LoggingAspect - Exited save of CrudRepository
+[http-nio-5555-exec-7] INFO  c.b.s.aop.LoggingAspect - Execution time of BookServiceImpl.updateBook :: 172 ms
+[http-nio-5555-exec-7] INFO  c.b.s.aop.LoggingAspect - Exited updateBook of BookServiceImpl
+[http-nio-5555-exec-7] INFO  c.b.s.aop.LoggingAspect - Execution time of BookController.updateBook :: 174 ms
+[http-nio-5555-exec-7] INFO  c.b.s.aop.LoggingAspect - Exited updateBook of BookController
+[http-nio-5555-exec-6] INFO  c.b.s.aop.LoggingAspect - Entered getAllBooks of BookController
+[http-nio-5555-exec-6] INFO  c.b.s.aop.LoggingAspect - Entered getAllBooks of BookServiceImpl
+[http-nio-5555-exec-6] INFO  c.b.s.aop.LoggingAspect - Execution time of BookServiceImpl.getAllBooks :: 90 ms
+[http-nio-5555-exec-6] INFO  c.b.s.aop.LoggingAspect - Exited getAllBooks of BookServiceImpl
+[http-nio-5555-exec-6] INFO  c.b.s.aop.LoggingAspect - Execution time of BookController.getAllBooks :: 91 ms
+[http-nio-5555-exec-6] INFO  c.b.s.aop.LoggingAspect - Exited getAllBooks of BookController
